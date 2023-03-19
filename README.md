@@ -14,6 +14,6 @@ Además, se incluyeron **Google Fonts** para personalizar la fuente y **Bootstra
 El texto de la página web está escrito en español, al igual que las clases y atributos personalizados. Las clases relacionadas con Bootstrap se incluyeron en inglés.
 
 
-Aquí puedes visualizar la página web: [GIOVANNA YV](https://keen-banoffee-7b3063.netlify.app)
+Aquí puedes visualizar la página web: [GIOVANNA YV](https://giovannayv.netlify.app)
 
 
