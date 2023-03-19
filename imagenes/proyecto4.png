@@ -1,0 +1,717 @@
+
+
+
+
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="es">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="es">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="es">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="es">
+<!--<![endif]-->
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TK7PP2F');</script>
+<!-- End Google Tag Manager -->
+
+	<meta charset="UTF-8" />
+	<!--  -->
+		
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://qualitytemporal.com/xmlrpc.php" />
+
+		<!--[if lt IE 9]>
+	<script src="https://qualitytemporal.com/wp-content/themes/Divi/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><style id="et-divi-open-sans-inline-css">/* Original: https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin,latin-ext,vietnamese&#038;display=swap *//* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVc.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf) format('truetype');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4n.ttf) format('truetype');}/* User Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVQ.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4k.woff) format('woff');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4k.woff) format('woff');}/* User Agent: Mozilla/5.0 (Windows NT 6.3; rv:39.0) Gecko/20100101 Firefox/39.0 */@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk5hkaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkxhjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0RkyFjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: italic;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk0ZjaVI.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0C4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 600;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 700;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4i.woff2) format('woff2');}@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 800;font-stretch: normal;font-display: swap;src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgshZ1y4i.woff2) format('woff2');}</style>	<script type="text/javascript">function theChampLoadEvent(e){var t=window.onload;if(typeof window.onload!="function"){window.onload=e}else{window.onload=function(){t();e()}}}</script>
+		<script type="text/javascript">var theChampDefaultLang = 'es_ES', theChampCloseIconPath = 'https://qualitytemporal.com/wp-content/plugins/super-socializer/images/close.png';</script>
+		<script>var theChampSiteUrl = 'https://qualitytemporal.com', theChampVerified = 0, theChampEmailPopup = 0, heateorSsMoreSharePopupSearchText = 'Search';</script>
+			<script> var theChampSharingAjaxUrl = 'https://qualitytemporal.com/wp-admin/admin-ajax.php', heateorSsFbMessengerAPI = 'https://www.facebook.com/dialog/send?app_id=595489497242932&display=popup&link=%encoded_post_url%&redirect_uri=%encoded_post_url%',heateorSsWhatsappShareAPI = 'web', heateorSsUrlCountFetched = [], heateorSsSharesText = 'Shares', heateorSsShareText = 'Share', theChampPluginIconPath = 'https://qualitytemporal.com/wp-content/plugins/super-socializer/images/logo.png', theChampSaveSharesLocally = 0, theChampHorizontalSharingCountEnable = 0, theChampVerticalSharingCountEnable = 0, theChampSharingOffset = -10, theChampCounterOffset = -10, theChampMobileStickySharingEnabled = 0, heateorSsCopyLinkMessage = "Link copied.";
+		var heateorSsVerticalSharingShortUrl = "https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/";		</script>
+			<style type="text/css">
+						.the_champ_button_instagram span.the_champ_svg,a.the_champ_instagram span.the_champ_svg{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}
+					.the_champ_horizontal_sharing .the_champ_svg,.heateor_ss_standard_follow_icons_container .the_champ_svg{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_horizontal_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_horizontal_sharing span.the_champ_svg:hover,.heateor_ss_standard_follow_icons_container span.the_champ_svg:hover{
+				border-color: transparent;
+	}
+		.the_champ_vertical_sharing span.the_champ_svg,.heateor_ss_floating_follow_icons_container span.the_champ_svg{
+					color: #fff;
+				border-width: 0px;
+		border-style: solid;
+		border-color: transparent;
+	}
+		.the_champ_vertical_sharing .theChampTCBackground{
+		color:#666;
+	}
+		.the_champ_vertical_sharing span.the_champ_svg:hover,.heateor_ss_floating_follow_icons_container span.the_champ_svg:hover{
+						border-color: transparent;
+		}
+	@media screen and (max-width:783px){.the_champ_vertical_sharing{display:none!important}}</style>
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<script type="text/javascript">
+			let jqueryParams=[],jQuery=function(r){return jqueryParams=[...jqueryParams,r],jQuery},$=function(r){return jqueryParams=[...jqueryParams,r],$};window.jQuery=jQuery,window.$=jQuery;let customHeadScripts=!1;jQuery.fn=jQuery.prototype={},$.fn=jQuery.prototype={},jQuery.noConflict=function(r){if(window.jQuery)return jQuery=window.jQuery,$=window.jQuery,customHeadScripts=!0,jQuery.noConflict},jQuery.ready=function(r){jqueryParams=[...jqueryParams,r]},$.ready=function(r){jqueryParams=[...jqueryParams,r]},jQuery.load=function(r){jqueryParams=[...jqueryParams,r]},$.load=function(r){jqueryParams=[...jqueryParams,r]},jQuery.fn.ready=function(r){jqueryParams=[...jqueryParams,r]},$.fn.ready=function(r){jqueryParams=[...jqueryParams,r]};</script>
+	<!-- This site is optimized with the Yoast SEO plugin v20.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Cómo redactar el currículum perfecto | Temporal Quality</title>
+	<link rel="canonical" href="https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Cómo redactar el currículum perfecto | Temporal Quality" />
+	<meta property="og:description" content="Aunque los tiempos cambien y aunque nos encontremos en un entorno cada vez más tecnológico e interactivo, el currículum vitae sigue siendo una herramienta fundamental a la hora de encontrar trabajo. Saber cómo redactar un currículum no se basa únicamente en una cuestión estética. Independientemente de que a veces nos centremos más en qué foto [&hellip;]" />
+	<meta property="og:url" content="https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/" />
+	<meta property="og:site_name" content="Temporal Quality" />
+	<meta property="article:published_time" content="2019-01-29T10:13:55+00:00" />
+	<meta property="article:modified_time" content="2021-06-24T14:16:35+00:00" />
+	<meta property="og:image" content="https://qualitytemporal.com/wp-content/uploads/2019/01/curriculum-perfecto.jpg" />
+	<meta property="og:image:width" content="1080" />
+	<meta property="og:image:height" content="702" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Marta Fité" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Escrito por" />
+	<meta name="twitter:data1" content="Marta Fité" />
+	<meta name="twitter:label2" content="Tiempo de lectura" />
+	<meta name="twitter:data2" content="5 minutos" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/","url":"https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/","name":"Cómo redactar el currículum perfecto | Temporal Quality","isPartOf":{"@id":"https://qualitytemporal.com/#website"},"primaryImageOfPage":{"@id":"https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/#primaryimage"},"image":{"@id":"https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/#primaryimage"},"thumbnailUrl":"https://qualitytemporal.com/wp-content/uploads/2019/01/curriculum-perfecto.jpg","datePublished":"2019-01-29T10:13:55+00:00","dateModified":"2021-06-24T14:16:35+00:00","author":{"@id":"https://qualitytemporal.com/#/schema/person/c3b8519afb33c88a572c4d64c1546b5e"},"breadcrumb":{"@id":"https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/"]}]},{"@type":"ImageObject","inLanguage":"es","@id":"https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/#primaryimage","url":"https://qualitytemporal.com/wp-content/uploads/2019/01/curriculum-perfecto.jpg","contentUrl":"https://qualitytemporal.com/wp-content/uploads/2019/01/curriculum-perfecto.jpg","width":1080,"height":702,"caption":"curriculum-perfecto"},{"@type":"BreadcrumbList","@id":"https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://qualitytemporal.com/"},{"@type":"ListItem","position":2,"name":"Cómo redactar el currículum perfecto"}]},{"@type":"WebSite","@id":"https://qualitytemporal.com/#website","url":"https://qualitytemporal.com/","name":"Temporal Quality","description":"Empresa de trabajo temporal","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://qualitytemporal.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"},{"@type":"Person","@id":"https://qualitytemporal.com/#/schema/person/c3b8519afb33c88a572c4d64c1546b5e","name":"Marta Fité","image":{"@type":"ImageObject","inLanguage":"es","@id":"https://qualitytemporal.com/#/schema/person/image/","url":"https://qualitytemporal.com/wp-content/uploads/2018/12/marta-oficial-96x96.png","contentUrl":"https://qualitytemporal.com/wp-content/uploads/2018/12/marta-oficial-96x96.png","caption":"Marta Fité"},"description":"Directora Técnica de Oficinas - Franquicias","url":"https://qualitytemporal.com/blog/author/marta-fite/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Temporal Quality &raquo; Feed" href="https://qualitytemporal.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Temporal Quality &raquo; Feed de los comentarios" href="https://qualitytemporal.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Temporal Quality &raquo; Comentario Cómo redactar el currículum perfecto del feed" href="https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/feed/" />
+<meta content="Divi for Quality v.1.5" name="generator"/><link rel='stylesheet' id='wp-block-library-css' href='https://qualitytemporal.com/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:"0 0 1em 0"}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}
+</style>
+<link rel='stylesheet' id='mpp_gutenberg-css' href='https://qualitytemporal.com/wp-content/plugins/metronet-profile-picture/dist/blocks.style.build.css?ver=2.6.0' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}body { margin: 0;--wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='bsearch-style-css' href='https://qualitytemporal.com/wp-content/plugins/better-search/includes/css/bsearch-styles.min.css?ver=3.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://qualitytemporal.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wpos-slick-style-css' href='https://qualitytemporal.com/wp-content/plugins/wp-logo-showcase-responsive-slider-slider/assets/css/slick.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wpls-public-style-css' href='https://qualitytemporal.com/wp-content/plugins/wp-logo-showcase-responsive-slider-slider/assets/css/wpls-public.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wpcf7-redirect-script-frontend-css' href='https://qualitytemporal.com/wp-content/plugins/wpcf7-redirect/build/css/wpcf7-redirect-frontend.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='the_champ_frontend_css-css' href='https://qualitytemporal.com/wp-content/plugins/super-socializer/css/front.css?ver=7.13.47' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css' href='https://qualitytemporal.com/wp-content/plugins/cookie-notice/css/front.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css' href='https://qualitytemporal.com/wp-content/plugins/popup-maker/assets/css/pum-site.min.css?ver=1.18.0' type='text/css' media='all' />
+<style id='popup-maker-site-inline-css' type='text/css'>
+/* Popup Google Fonts */
+@import url('//fonts.googleapis.com/css?family=Montserrat:100');
+
+/* Popup Theme 4477: Tema por defecto */
+.pum-theme-4477, .pum-theme-tema-por-defecto { background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-4477 .pum-container, .pum-theme-tema-por-defecto .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
+.pum-theme-4477 .pum-title, .pum-theme-tema-por-defecto .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; font-style: normal; line-height: 36px } 
+.pum-theme-4477 .pum-content, .pum-theme-tema-por-defecto .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400; font-style: inherit } 
+.pum-theme-4477 .pum-content + .pum-close, .pum-theme-tema-por-defecto .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; font-style: inherit; line-height: 36px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+
+/* Popup Theme 4478: Light Box */
+.pum-theme-4478, .pum-theme-lightbox { background-color: rgba( 0, 0, 0, 0.60 ) } 
+.pum-theme-4478 .pum-container, .pum-theme-lightbox .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-4478 .pum-title, .pum-theme-lightbox .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-4478 .pum-content, .pum-theme-lightbox .pum-content { color: #000000; font-family: inherit; font-weight: 100 } 
+.pum-theme-4478 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { position: absolute; height: 26px; width: 26px; left: auto; right: -13px; bottom: auto; top: -13px; padding: 0px; color: #ffffff; font-family: Arial; font-weight: 100; font-size: 24px; line-height: 24px; border: 2px solid #ffffff; border-radius: 26px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+
+/* Popup Theme 4479: Azul corporativo */
+.pum-theme-4479, .pum-theme-enterprise-blue { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-4479 .pum-container, .pum-theme-enterprise-blue .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-4479 .pum-title, .pum-theme-enterprise-blue .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 34px; line-height: 36px } 
+.pum-theme-4479 .pum-content, .pum-theme-enterprise-blue .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-4479 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close { position: absolute; height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: Times New Roman; font-weight: 100; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 49, 91, 124, 1.00 ) } 
+
+/* Popup Theme 4480: Hello Box */
+.pum-theme-4480, .pum-theme-hello-box { background-color: rgba( 0, 0, 0, 0.75 ) } 
+.pum-theme-4480 .pum-container, .pum-theme-hello-box .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-4480 .pum-title, .pum-theme-hello-box .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-4480 .pum-content, .pum-theme-hello-box .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-4480 .pum-content + .pum-close, .pum-theme-hello-box .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+
+/* Popup Theme 4481: Moderno */
+.pum-theme-4481, .pum-theme-cutting-edge { background-color: rgba( 0, 0, 0, 0.50 ) } 
+.pum-theme-4481 .pum-container, .pum-theme-cutting-edge .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 30, 115, 190, 1.00 ) } 
+.pum-theme-4481 .pum-title, .pum-theme-cutting-edge .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-weight: 100; font-size: 26px; line-height: 28px } 
+.pum-theme-4481 .pum-content, .pum-theme-cutting-edge .pum-content { color: #ffffff; font-family: inherit; font-weight: 100 } 
+.pum-theme-4481 .pum-content + .pum-close, .pum-theme-cutting-edge .pum-content + .pum-close { position: absolute; height: 24px; width: 24px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 0px; color: #1e73be; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 24px; border: 1px none #ffffff; border-radius: 0px; box-shadow: -1px 1px 1px 0px rgba( 2, 2, 2, 0.10 ); text-shadow: -1px 1px 1px rgba( 0, 0, 0, 0.10 ); background-color: rgba( 238, 238, 34, 1.00 ) } 
+
+/* Popup Theme 4482: Borde enmarcado */
+.pum-theme-4482, .pum-theme-framed-border { background-color: rgba( 255, 255, 255, 0.50 ) } 
+.pum-theme-4482 .pum-container, .pum-theme-framed-border .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 255, 251, 239, 1.00 ) } 
+.pum-theme-4482 .pum-title, .pum-theme-framed-border .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-4482 .pum-content, .pum-theme-framed-border .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-4482 .pum-content + .pum-close, .pum-theme-framed-border .pum-content + .pum-close { position: absolute; height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Tahoma; font-weight: 700; font-size: 16px; line-height: 18px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 0.55 ) } 
+
+/* Popup Theme 4483: Floating Bar - Soft Blue */
+.pum-theme-4483, .pum-theme-floating-bar { background-color: rgba( 255, 255, 255, 0.00 ) } 
+.pum-theme-4483 .pum-container, .pum-theme-floating-bar .pum-container { padding: 8px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 238, 246, 252, 1.00 ) } 
+.pum-theme-4483 .pum-title, .pum-theme-floating-bar .pum-title { color: #505050; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
+.pum-theme-4483 .pum-content, .pum-theme-floating-bar .pum-content { color: #505050; font-family: inherit; font-weight: 400 } 
+.pum-theme-4483 .pum-content + .pum-close, .pum-theme-floating-bar .pum-content + .pum-close { position: absolute; height: 18px; width: 18px; left: auto; right: 5px; bottom: auto; top: 50%; padding: 0px; color: #505050; font-family: Sans-Serif; font-weight: 700; font-size: 15px; line-height: 18px; border: 1px solid #505050; border-radius: 15px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 0.00 ); transform: translate(0, -50%) } 
+
+/* Popup Theme 4484: Content Only - For use with page builders or block editor */
+.pum-theme-4484, .pum-theme-content-only { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-4484 .pum-container, .pum-theme-content-only .pum-container { padding: 0px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ) } 
+.pum-theme-4484 .pum-title, .pum-theme-content-only .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
+.pum-theme-4484 .pum-content, .pum-theme-content-only .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400 } 
+.pum-theme-4484 .pum-content + .pum-close, .pum-theme-content-only .pum-content + .pum-close { position: absolute; height: 18px; width: 18px; left: auto; right: 7px; bottom: auto; top: 7px; padding: 0px; color: #000000; font-family: inherit; font-weight: 700; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 15px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 0.00 ) } 
+
+#pum-5922 {z-index: 1999999999}
+#pum-5383 {z-index: 1999999999}
+#pum-4486 {z-index: 99999}
+
+</style>
+<link rel='stylesheet' id='divi-style-parent-css' href='https://qualitytemporal.com/wp-content/themes/Divi/style-static.min.css?ver=4.17.6' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-pum-css' href='https://qualitytemporal.com/wp-content/themes/XR-Divi/style.css?ver=4.17.6' type='text/css' media='all' />
+<script async type='text/javascript' id='cookie-notice-front-js-before'>
+var cnArgs = {"ajaxUrl":"https:\/\/qualitytemporal.com\/wp-admin\/admin-ajax.php","nonce":"68877e72ed","hideEffect":"fade","position":"bottom","onScroll":false,"onScrollOffset":100,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":2592000,"cookieTimeRejected":2592000,"globalCookie":false,"redirection":false,"cache":false,"revokeCookies":false,"revokeCookiesOpt":"automatic"};
+</script>
+<script async type='text/javascript' src='https://qualitytemporal.com/wp-content/plugins/cookie-notice/js/front.min.js?ver=2.4.7' id='cookie-notice-front-js'></script>
+<link rel="https://api.w.org/" href="https://qualitytemporal.com/wp-json/" /><link rel="alternate" type="application/json" href="https://qualitytemporal.com/wp-json/wp/v2/posts/3974" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://qualitytemporal.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://qualitytemporal.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.1.1" />
+<link rel='shortlink' href='https://qualitytemporal.com/?p=3974' />
+<link rel="alternate" type="application/json+oembed" href="https://qualitytemporal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fqualitytemporal.com%2Fblog%2Fcomo-redactar-curriculum-perfecto%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://qualitytemporal.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fqualitytemporal.com%2Fblog%2Fcomo-redactar-curriculum-perfecto%2F&#038;format=xml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="shortcut icon" href="http://qualitytemporal.com/wp-content/uploads/2016/04/favicon.ico" /><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/XR-Divi/fonts/fonts.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css">
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+
+<script>
+jQuery(function($){
+    $('.et_pb_accordion .et_pb_toggle_open').addClass('et_pb_toggle_close').removeClass('et_pb_toggle_open');
+
+    $('.et_pb_accordion .et_pb_toggle').click(function() {
+      $this = $(this);
+      setTimeout(function(){
+         $this.closest('.et_pb_accordion').removeClass('et_pb_accordion_toggling');
+      },700);
+    });
+});
+
+
+jQuery(function($){
+  $('.et_pb_toggle_title').click(function(){
+    var $toggle = $(this).closest('.et_pb_toggle');
+    if (!$toggle.hasClass('et_pb_accordion_toggling')) {
+      var $accordion = $toggle.closest('.et_pb_accordion');
+      if ($toggle.hasClass('et_pb_toggle_open')) {
+        $accordion.addClass('et_pb_accordion_toggling');
+        $toggle.find('.et_pb_toggle_content').slideToggle(700, function() { 
+          $toggle.removeClass('et_pb_toggle_open').addClass('et_pb_toggle_close'); 
+					
+        });
+      }
+      setTimeout(function(){ 
+        $accordion.removeClass('et_pb_accordion_toggling'); 
+      }, 750);
+    }
+  });
+});
+
+
+
+</script>
+
+
+
+<script>
+
+ jQuery(document).ready(function($){
+
+});
+</script>
+
+
+		
+
+
+<link rel="stylesheet" id="et-divi-customizer-global-cached-inline-styles" href="https://qualitytemporal.com/wp-content/et-cache/global/et-divi-customizer-global.min.css?ver=1678180412" />	
+	<!-- GOOGLE ANALYTICS -->
+	
+<!--	<script>-->
+<!--  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
+<!--  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
+<!--  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
+<!--  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');-->
+<!---->
+<!--  	ga('create', 'UA-72031513-2', 'auto');-->
+<!--  	ga('require', 'linkid');-->
+<!--  	ga('send', 'pageview');-->
+<!---->
+<!--	</script>-->
+
+	<!-- FÍN GOOGLE ANALYTICS -->
+
+	<meta name="msvalidate.01" content="EEB7B037158CA64399D3994A930BA40F" />
+	
+</head>
+<body class="post-template-default single single-post postid-3974 single-format-standard et_pb_button_helper_class et_fullwidth_nav et_fixed_nav et_show_nav et_pb_show_title et_secondary_nav_enabled et_secondary_nav_only_menu et_primary_nav_dropdown_animation_flip et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns1 et_cover_background et_pb_gutter windows et_pb_gutters3 et_right_sidebar et_divi_theme et-db cookies-not-set">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TK7PP2F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<div id="page-container">
+
+			<div id="top-header">
+			<div class="container clearfix">
+
+			
+				<div id="et-secondary-menu">
+				<ul id="et-secondary-nav" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3625"><a href="https://qualitytemporal.com/grup-montaner/area-trabajadores/">Ya soy Trabajador/a</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1260"><a target="_blank" rel="noopener" href="https://www2.grupmontaner.com/Clientes/Privado/Login.aspx">Ya soy Cliente</a></li>
+</ul>				</div> <!-- #et-secondary-menu -->
+
+			</div> <!-- .container -->
+		</div> <!-- #top-header -->
+	
+	
+		<header id="main-header" data-height-onload="66">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://qualitytemporal.com/">
+						<img src="http://qualitytemporal.com/wp-content/uploads/2018/08/Quality-Grup-Montaner.png" alt="Temporal Quality" id="logo" data-height-percentage="54" />
+					</a>
+				</div>
+				<div id="et-top-navigation" data-height="66" data-fixed-height="40">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-3077" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3077"><a href="https://qualitytemporal.com/nuestros-servicios/">Nuestros Servicios</a>
+<ul class="sub-menu">
+	<li id="menu-item-3078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3078"><a href="https://qualitytemporal.com/nuestros-servicios/">Nuestros servicios</a></li>
+	<li id="menu-item-3039" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3039"><a>Sectores</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5600" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5600"><a href="https://qualitytemporal.com/nuestros-servicios/ultima-milla/">Última Milla</a></li>
+		<li id="menu-item-3616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3616"><a href="https://qualitytemporal.com/nuestros-servicios/office/">Office</a></li>
+		<li id="menu-item-3618" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3618"><a href="https://qualitytemporal.com/nuestros-servicios/logistica/">Logística</a></li>
+		<li id="menu-item-3615" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3615"><a href="https://qualitytemporal.com/nuestros-servicios/industrial/">Industrial</a></li>
+		<li id="menu-item-3620" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3620"><a href="https://qualitytemporal.com/nuestros-servicios/hosteleria/">Hostelería</a></li>
+		<li id="menu-item-3617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3617"><a href="https://qualitytemporal.com/nuestros-servicios/carnicas/">Cárnicas</a></li>
+		<li id="menu-item-3619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3619"><a href="https://qualitytemporal.com/nuestros-servicios/agrario-maritimo/">Agrario y marítimo</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-3048" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3048"><a href="https://qualitytemporal.com/trabaja-con-nosotros/">Tu nueva oportunidad</a></li>
+<li id="menu-item-4793" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4793"><a href="https://qualitytemporal.com/digitalizacion/">Digitalización</a></li>
+<li id="menu-item-3050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3050"><a href="https://qualitytemporal.com/grup-montaner/">Grup Montaner</a></li>
+<li id="menu-item-4969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4969"><a href="https://qualitytemporal.com/blog/">Blog</a></li>
+<li id="menu-item-3054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3054"><a href="https://qualitytemporal.com/contactar/">Contactar</a></li>
+</ul>						</nav>
+					
+					
+					
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Seleccionar página</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+			<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://qualitytemporal.com/">
+					<input type="search" class="et-search-field" placeholder="Búsqueda &hellip;" value="" name="s" title="Buscar:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+		</header> <!-- #main-header -->
+
+		<div id="et-main-area">
+	
+<div id="main-content" class="blog-hero single-post-hero" style="background-image:url(https://qualitytemporal.com/wp-content/uploads/2019/01/curriculum-perfecto.jpg)">
+	<div class="row-fluid wrapper">
+		<div class="span12 active-post all-text-white">
+			<div class="post-listing">
+								<div class="single-post">
+					<h1><a href="https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/">Cómo redactar el currículum perfecto</a></h1>
+				</div>
+							</div>
+		</div>
+	</div>
+</div>
+
+<div class="single-post-main-content">
+	<p id="breadcrumbs"><span><span><a href="https://qualitytemporal.com/">Home</a></span> » <span class="breadcrumb_last" aria-current="page"><strong>Cómo redactar el currículum perfecto</strong></span></span></p>	<div class="row-fluid wrapper">
+		<div class="span9 post-content">
+			<div class="content-wrap">
+				          <h5 class="date-link-comment">
+  					<span class="date">29 de enero de 2019</span>
+<!--                    <span class="comment"><img src="/wp-content/uploads/2018/08/comment.png"/>--><!--</span>-->
+                    <span class="love"><!--img src="/wp-content/uploads/2018/08/heart-copy.png"/--><span class="sl-wrapper"><a href="https://qualitytemporal.com/wp-admin/admin-ajax.php?action=process_simple_like&post_id=3974&nonce=48e8ab120e&is_comment=0&disabled=true" class="sl-button sl-button-3974" data-nonce="48e8ab120e" data-post-id="3974" data-iscomment="0" title="Like"><img  src="/wp-content/uploads/2018/08/heart-copy.png"/><span class="sl-count">112</span></a><span id="sl-loader"></span></span></span>
+  				</h5>
+<!--				<h3>--><!--</h3>-->
+				<div class="content">
+					<p>Aunque los tiempos cambien y aunque nos encontremos en un entorno cada vez más tecnológico e interactivo, <strong>el currículum vitae sigue siendo una herramienta fundamental</strong> a la hora de <a href="https://qualitytemporal.com/blog/entrevista-de-trabajo/">encontrar trabajo</a>. Saber cómo redactar un currículum no se basa únicamente en una cuestión estética.</p>
+<p>Independientemente de que a veces nos centremos más en <strong>qué foto poner</strong>, qué <strong>colores</strong> elegir o qué <strong>tipo de letra</strong> utilizar, al final el currículum es un documento informativo, así que <strong>lo más importante siempre será el fondo</strong>, el contenido, sin dejar nunca de lado la apariencia, el continente.</p>
+<p>Si tienes esto claro, es fácil que ahora te surjan preguntas sobre <strong>cómo debes redactar un currículum</strong>, qué palabras debes utilizar, qué tipo de expresiones debes incluir o cuáles no y, en definitiva, qué lenguaje es mejor emplear en cada caso.</p>
+<p>Algunas de estas preguntas son:</p>
+<ul>
+<li>¿Debo utilizar siempre un <strong>lenguaje elevado y culto</strong>?</li>
+<li>¿Puedo usar palabras coloquiales para presentarme de una forma más cercana?</li>
+<li>¿Es negativo utilizar <strong>expresiones hechas</strong>?</li>
+<li>¿Qué pueden descubrir los reclutadores según el lenguaje que utilice en mi CV?</li>
+</ul>
+<h2>Lo que las palabras dicen de ti: una cuestión de estilo</h2>
+<p>El lenguaje es rico y nos permite expresar cualquier situación y sensación si sabemos cómo hacerlo.</p>
+<p>Por eso decimos que el lenguaje tiene múltiples funciones, entre ellas:</p>
+<ul>
+<li>Una <strong>función referencial y representativa, </strong>cuando queremos dar información concreta y descriptiva, sin interpretaciones.</li>
+<li>Una función <strong>simbólica</strong>, a la hora de presentar emociones y sentimientos.</li>
+<li>Una función <strong>apelativa</strong>, cuando esperamos que nuestras palabras tengan una reacción de quien nos lee o nos escucha.</li>
+<li>Una función <strong>relacional</strong>, si nuestra intención es que lo que decimos nos ayude a conocer mejor el entono que nos rodea.</li>
+<li>Y una función <strong>estética</strong>, la que se suele utilizar en la literatura y la poesía.</li>
+</ul>
+<p>¿Qué tipo de función del lenguaje debemos explotar?</p>
+<p>Depende de cada caso, pero lo habitual, de forma genérica y siempre recomendable, es utilizar la primera, <strong>la más informativa</strong>, porque nos permite presentar de manera objetiva y clara los datos precisos, verídicos y contrastables de un currículum.</p>
+<p>Únicamente <strong>en algunas profesiones de carácter creativo</strong> (como puede ser la publicidad o el diseño gráfico) puede aconsejarse<strong> sacar partido a otras funciones</strong> del lenguaje (la apelativa e incluso la estética).</p>
+<p>En estos casos, es cada vez más habitual que los candidatos (periodistas, redactores, community manager, creativos, fotógrafos, etc.) apuesten por <strong>incorporar los principios del storytelling</strong> a su currículum.</p>
+<p>¿Su objetivo?</p>
+<p><strong> Conectar con el receptor de manera emocional</strong>. Piensa que los reclutadores leen cientos de currículums cada día, y que <span style="text-decoration: underline;">únicamente recuerdan aquellos que realmente les han llamado la atención</span>.</p>
+<p>Así que construir una buena historia alrededor de nuestra biografía y experiencia profesional puede ser interesante <strong>cuando el contexto lo permite</strong>.</p>
+<p>Para los demás, e independientemente del sector profesional, recuerda que <strong>el nivel de lenguaje de una persona suele utilizarse como indicativo de su formación</strong> y cultura. Así que, como carta de presentación profesional, en el currículum debemos intentar huir del lenguaje coloquial (e incluso vulgar) porque su uso podría interpretarse como sinónimo de escasa cualificación, bajo nivel educativo o <strong>falta de profesionalidad</strong>.</p>
+<p>Otra cuestión a tener en cuenta son las frases hechas.</p>
+<p>¿Debo o no debo usarlas?</p>
+<p>Es cierto que existen <strong>frases “objetivo”</strong> que se repiten prácticamente en todos los currículums. No están “restringidas” e incluso se recomiendan en algunos casos. Pero siempre deberás <strong>adaptarlas a tu situación</strong>.</p>
+<p>Si no tienes mucha experiencia, puedes emplear alguna de ellas como presentación y como despedida, aunque recuerda que <strong>no utilizar recursos originales restará impacto</strong> a tu currículum.</p>
+<p>Dicho de otra forma: no destacará, será uno más.</p>
+<h2>10 reglas básicas para redactar tu currículum</h2>
+<p>A continuación, hemos recopilado algunas normas básicas para redactar un currículum.</p>
+<p>Algunas hacen referencia al <strong>lenguaje</strong> y otras a los <strong>elementos tipográficos</strong> que pueden ayudarte a mejorar y destacar su contenido.</p>
+<ul>
+<li>Se recomienda que un currículum no sobrepase las <strong>dos páginas</strong>.</li>
+<li>Selecciona la <span style="text-decoration: underline;">información más importante</span> y utiliza un lenguaje claro, preciso y concreto para presentarla.</li>
+<li>Evita <strong>contenido que no aporte información</strong> relevante sobre ti o que sea muy genérico, y no repitas datos.</li>
+<li>Céntrate en exponer las <span style="text-decoration: underline;">habilidades y competencias</span> personales que has ido desarrollando a lo largo de tu carrera profesional y que estén <strong>relacionadas con el puesto de trabajo</strong> al que optas.</li>
+<li>Ofrece un lenguaje uniforme y cuidado.</li>
+<li>No cometas faltas de ortografía. Hacerlo puede dar una imagen negativa.</li>
+<li>No utilices <strong>abreviaturas</strong>.</li>
+<li>Utiliza sinónimos y evita <em>muletillas</em> o expresiones repetitivas.</li>
+<li>Descarta aquellas palabras o <span style="text-decoration: underline;">expresiones con connotaciones negativas</span>.</li>
+<li>Salvo que sea un requisito expreso de la empresa, <strong>nunca redactes tu currículum a mano</strong>.  Imprímelo solo por una cara. Respeta los márgenes, deja espacio entre los párrafos, emplea un tamaño y un tipo de letra estándar, y aprovecha negritas y cursivas para destacar información y añadir títulos y subtítulos.</li>
+</ul>
+<p>Sí sigues estos consejos, estarás más cerca de redactar el currículum perfecto.</p>
+<p>En este artículo además descubrirás <a href="https://qualitytemporal.com/blog/conseguir-reclutadores-se-fijen-en-curriculum/">cómo conseguir que los reclutadores se fijen en tu currículum</a>.</p>
+<p>Y recuerda que sencillez, brevedad y concisión siempre serán tus aliadas para conseguirlo.</p>
+<div style='clear:both'></div><div  class='the_champ_sharing_container the_champ_horizontal_sharing' data-super-socializer-href="https://qualitytemporal.com/blog/como-redactar-curriculum-perfecto/"><div class='the_champ_sharing_title' style="font-weight:bold" >Comparte en:</div><div class="the_champ_sharing_ul"><a class="the_champ_facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fqualitytemporal.com%2Fblog%2Fcomo-redactar-curriculum-perfecto%2F" title="Facebook" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg" style="background-color:#3c589a;width:64px;height:30px;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-5 -5 42 42"><path d="M17.78 27.5V17.008h3.522l.527-4.09h-4.05v-2.61c0-1.182.33-1.99 2.023-1.99h2.166V4.66c-.375-.05-1.66-.16-3.155-.16-3.123 0-5.26 1.905-5.26 5.405v3.016h-3.53v4.09h3.53V27.5h4.223z" fill="#fff"></path></svg></span></a><a class="the_champ_button_twitter" href="https://twitter.com/intent/tweet?text=C%C3%B3mo%20redactar%20el%20curr%C3%ADculum%20perfecto&url=https%3A%2F%2Fqualitytemporal.com%2Fblog%2Fcomo-redactar-curriculum-perfecto%2F" title="Twitter" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg the_champ_s__default the_champ_s_twitter" style="background-color:#55acee;width:64px;height:30px;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-4 -4 39 39"><path d="M28 8.557a9.913 9.913 0 0 1-2.828.775 4.93 4.93 0 0 0 2.166-2.725 9.738 9.738 0 0 1-3.13 1.194 4.92 4.92 0 0 0-3.593-1.55 4.924 4.924 0 0 0-4.794 6.049c-4.09-.21-7.72-2.17-10.15-5.15a4.942 4.942 0 0 0-.665 2.477c0 1.71.87 3.214 2.19 4.1a4.968 4.968 0 0 1-2.23-.616v.06c0 2.39 1.7 4.38 3.952 4.83-.414.115-.85.174-1.297.174-.318 0-.626-.03-.928-.086a4.935 4.935 0 0 0 4.6 3.42 9.893 9.893 0 0 1-6.114 2.107c-.398 0-.79-.023-1.175-.068a13.953 13.953 0 0 0 7.55 2.213c9.056 0 14.01-7.507 14.01-14.013 0-.213-.005-.426-.015-.637.96-.695 1.795-1.56 2.455-2.55z" fill="#fff"></path></svg></span></a><a class="the_champ_button_linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fqualitytemporal.com%2Fblog%2Fcomo-redactar-curriculum-perfecto%2F&title=C%C3%B3mo%20redactar%20el%20curr%C3%ADculum%20perfecto" title="Linkedin" rel="nofollow noopener" target="_blank" style="font-size:24px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="the_champ_svg the_champ_s__default the_champ_s_linkedin" style="background-color:#0077b5;width:64px;height:30px;display:inline-block;opacity:1;float:left;font-size:24px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path d="M6.227 12.61h4.19v13.48h-4.19V12.61zm2.095-6.7a2.43 2.43 0 0 1 0 4.86c-1.344 0-2.428-1.09-2.428-2.43s1.084-2.43 2.428-2.43m4.72 6.7h4.02v1.84h.058c.56-1.058 1.927-2.176 3.965-2.176 4.238 0 5.02 2.792 5.02 6.42v7.395h-4.183v-6.56c0-1.564-.03-3.574-2.178-3.574-2.18 0-2.514 1.7-2.514 3.46v6.668h-4.187V12.61z" fill="#fff"></path></svg></span></a></div></div><div style='clear:both'></div>				</div>
+				<div class="author-info"><div class="author-image" style="background:url(https://qualitytemporal.com/wp-content/uploads/2018/12/marta-oficial-96x96.png);" alt="Marta Fité" ></div><div class="author-name">Marta Fité<p class="author-description">Directora Técnica de Oficinas - Franquicias</p></div></div>							</div>
+		</div>
+		<div class="span3 sidebar">
+		<div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div class="search-widget">
+	
+
+<form id="search_form" action="/">
+<input id="searchbox" name="s" type="text" placeholder="Buscar"> <a class="search-button hs-button primary" ><input id="search_submit" type="submit" value="">
+<img src="http://qualitytemporal.com/wp-content/uploads/2018/08/font-awesome_4-7-0_search_19_20_00aeef_none.png"></a></form>
+	
+</div></div></div><div id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div class="subscribe-form">
+	<h3>
+		¿Quieres estar al día?
+	</h3>
+	<p>
+	No te pierdas las últimas novedades de nuestro blog
+	</p> 
+	<div class="form-new blog">
+		<script type="text/javascript" src="//contenidosmontaner.com/form/generate.js?id=31"></script>
+	</div>
+	
+</div></div></div><div id="categories-2" class="widget widget_categories"><h4>Categorías</h4>
+			<ul>
+					<li class="cat-item cat-item-15"><a href="https://qualitytemporal.com/mejora-tu-empleabilidad/">Mejora tu empleabilidad</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="https://qualitytemporal.com/empresa/">Mejora tu empresa</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://qualitytemporal.com/noticias/">Noticias</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://qualitytemporal.com/sin-categoria/">Sin categoría</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="https://qualitytemporal.com/tendencias-rrhh/">Tendencias RRHH</a>
+</li>
+			</ul>
+
+			</div></div>	</div>
+</div>
+<div class="blog-main-content">
+	<div class="row-fluid wrapper">
+		<div class="row-fluid headline">
+			<p class="title otros-post">Otros post</p>
+		</div>
+		<div class="row-fluid content">
+		
+			<div class='posts-slider'><div class='post-item'><div class='post-thumbnail' style='background:url(https://qualitytemporal.com/wp-content/uploads/2022/02/100x667-1.jpg);'></div><div class='category'><p><a href="https://qualitytemporal.com/noticias/" rel="category tag">Noticias</a></p></div><div class='post-content'><h2>El 95% de nuestros empleados/as nos recomienda como ETT para trabajar</h2><h6>09 Feb 2022</h6><p class='excerpt'>Encuesta de Satisfacción Quality 2021 A pesar de que el año 2021 también ha estado marcado por la pandemia y sus derivadas restricciones, como empresa ETT hemos trabajado de forma exhaustiva para adaptarnos a los cambios y apoyar las necesidades de nuestros empleados/as y de nuestros/as clientes. Con el expertise adquirido durante el año anterior [&hellip;]</p><a href="https://qualitytemporal.com/blog/el-95-de-nuestros-empleados-as-nos-recomienda-como-ett-para-trabajar/" class="button">LEER MÁS</a></div></div><div class='post-item'><div class='post-thumbnail' style='background:url(https://qualitytemporal.com/wp-content/uploads/2023/03/sector-carnico.png);'></div><div class='category'><p><a href="https://qualitytemporal.com/empresa/" rel="category tag">Mejora tu empresa</a></p></div><div class='post-content'><h2>Retos y ventajas del trabajo temporal en el sector cárnico</h2><h6>07 Mar 2023</h6><p class='excerpt'>¿Cuáles son los retos y ventajas del trabajo temporal en el sector cárnico? Vamos por partes. Según los últimos datos de la ANICE, el sector cuenta con alrededor de 3.500 empresas, emplea a casi 111.000 personas y está diseminado por toda la geografía española, especialmente en zonas rurales, donde se asientan pequeñas y medianas empresas [&hellip;]</p><a href="https://qualitytemporal.com/blog/ventajas-trabajo-temporal-sector-carnico/" class="button">LEER MÁS</a></div></div><div class='post-item'><div class='post-thumbnail' style='background:url(https://qualitytemporal.com/wp-content/uploads/2023/02/consultoria-constructores_1098-13717.webp);'></div><div class='category'><p><a href="https://qualitytemporal.com/tendencias-rrhh/" rel="category tag">Tendencias RRHH</a></p></div><div class='post-content'><h2>La rotación de trabajadores después de la reforma laboral</h2><h6>22 Feb 2023</h6><p class='excerpt'>El mercado laboral español ganó el año pasado más de 2 millones de afiliados a la Seguridad Social con contrato indefinido. Esto significa que el peso total de los trabajadores fijos en el sistema ha pasado del 71% al 83%. Esto se debe en gran medida a las medidas aprobadas en la reforma laboral que [&hellip;]</p><a href="https://qualitytemporal.com/blog/rotacion-reforma-laboral/" class="button">LEER MÁS</a></div></div><div class='post-item'><div class='post-thumbnail' style='background:url(https://qualitytemporal.com/wp-content/uploads/2023/02/0601-reus-recollida-joguines-2_241-694214_20230105195652.jpg);'></div><div class='category'><p><a href="https://qualitytemporal.com/noticias/" rel="category tag">Noticias</a></p></div><div class='post-content'><h2>Éxito en la campaña de Recogida de Juguetes de Quality</h2><h6>01 Feb 2023</h6><p class='excerpt'>En 2019, desde la oficina Quality en Reus (Tarragona), lanzamos nuestra primera campaña de recogida solidaria de juguetes para los/as niños/as más desfavorecidos/as de la zona y desde entonces se ha convertido en una bonita tradición que realizamos todos los años junto a la Asociación Benéfica ‘Nos Ayudamos’. Cada Navidad nos convertimos en pajes reales para [&hellip;]</p><a href="https://qualitytemporal.com/blog/campana-recogida-juguetes-quality/" class="button">LEER MÁS</a></div></div><div class='post-item'><div class='post-thumbnail' style='background:url(https://qualitytemporal.com/wp-content/uploads/2023/01/forma-sector-agrario.jpg);'></div><div class='category'><p><a href="https://qualitytemporal.com/noticias/" rel="category tag">Noticias</a></p></div><div class='post-content'><h2>Reforma laboral en el sector agrario: todo lo que debes saber</h2><h6>19 Ene 2023</h6><p class='excerpt'>El año pasado se aplicó la nueva Reforma Laboral con la finalidad de reducir la temporalidad y la precariedad laboral de los trabajadores/as temporales, afectando así, principalmente, a los contratos y convenios de trabajo temporal. Desde su aplicación ha habido varios cambios y, en consecuencia, mucha incertidumbre sobre cómo las empresas pueden adaptar hoy en [&hellip;]</p><a href="https://qualitytemporal.com/blog/reforma-laboral-sector-agrario/" class="button">LEER MÁS</a></div></div><div class='post-item'><div class='post-thumbnail' style='background:url(https://qualitytemporal.com/wp-content/uploads/2023/01/mejora-de-la-empleabilidad.jpg);'></div><div class='category'><p><a href="https://qualitytemporal.com/mejora-tu-empleabilidad/" rel="category tag">Mejora tu empleabilidad</a></p></div><div class='post-content'><h2>¿Cuáles son las claves para la mejora de la empleabilidad?</h2><h6>11 Ene 2023</h6><p class='excerpt'>Si estás en búsqueda de trabajo, ya sabrás que nos encontramos en un mercado laboral cambiante, pero, además, exigente. Destacar para hacerse con un puesto ya no es solo cosa de enviar un currículum. Por eso, debes mejorar tu empleabilidad. Las habilidades y competencias genéricas no tienen lugar en el mercado laboral actual. Pero antes: [&hellip;]</p><a href="https://qualitytemporal.com/blog/mejora-de-la-empleabilidad/" class="button">LEER MÁS</a></div></div><div class='post-item'><div class='post-thumbnail' style='background:url(https://qualitytemporal.com/wp-content/uploads/2022/12/sectores-con-mas-demanda-de-empleo.jpg);'></div><div class='category'><p><a href="https://qualitytemporal.com/mejora-tu-empleabilidad/" rel="category tag">Mejora tu empleabilidad</a></p></div><div class='post-content'><h2>Sectores con más demanda de empleo temporal en 2023</h2><h6>20 Dic 2022</h6><p class='excerpt'>Aproximadamente el 85% de los contratos realizados a través de ETT se agrupan en 5 sectores: industria manufacturera, agroalimentario, hostelería, transporte y comercio. Las empresas de estos sectores confían en las ETT para encontrar los perfiles más demandados para empleos temporales especializados de la manera más rápida y eficaz posible. Estos son: Sector logístico y [&hellip;]</p><a href="https://qualitytemporal.com/blog/sectores-con-mas-demanda-de-empleo-temporal-en-2023/" class="button">LEER MÁS</a></div></div><div class='post-item'><div class='post-thumbnail' style='background:url(https://qualitytemporal.com/wp-content/uploads/2022/11/contrato-fijo-discontinuo.jpg);'></div><div class='category'><p><a href="https://qualitytemporal.com/empresa/" rel="category tag">Mejora tu empresa</a></p></div><div class='post-content'><h2>Contrato fijo discontinuo, una nueva oportunidad laboral</h2><h6>22 Nov 2022</h6><p class='excerpt'>En el último año, los contratos laborales en España han sufrido diferentes cambios con la aplicación de la Reforma Laboral. Con su entrada en vigor desaparecieron los contratos de trabajo temporal tal y como los conocíamos hasta el momento (los contratos por obra y servicio). El objetivo principal de la nueva norma es reducir la [&hellip;]</p><a href="https://qualitytemporal.com/blog/contrato-fijo-discontinuo/" class="button">LEER MÁS</a></div></div><div class='post-item'><div class='post-thumbnail' style='background:url(https://qualitytemporal.com/wp-content/uploads/2022/11/trabajo-temporal.jpg);'></div><div class='category'><p><a href="https://qualitytemporal.com/noticias/" rel="category tag">Noticias</a></p></div><div class='post-content'><h2>Reinventando el trabajo temporal: expertos en personas</h2><h6>03 Nov 2022</h6><p class='excerpt'>El sector de las empresas de servicios de trabajo temporal, experimentó un significativo repunte en el año anterior, después del desplome provocado por la crisis del Covid-19.</p><a href="https://qualitytemporal.com/blog/reinventando-el-trabajo-temporal/" class="button">LEER MÁS</a></div></div><div class='post-item'><div class='post-thumbnail' style='background:url(https://qualitytemporal.com/wp-content/uploads/2022/10/sector-de-la-automocion.jpg);'></div><div class='category'><p><a href="https://qualitytemporal.com/noticias/" rel="category tag">Noticias</a></p></div><div class='post-content'><h2>Los retos de las empresas en el sector logístico y de la automoción</h2><h6>21 Oct 2022</h6><p class='excerpt'>El sector de la automoción y el logístico se enfrentan a varios retos. Y es que, son varios los problemas que actualmente preocupan a las empresas.</p><a href="https://qualitytemporal.com/blog/sector-de-la-automocion-y-logistico/" class="button">LEER MÁS</a></div></div></div>			
+		</div>
+	</div>
+</div>
+
+
+
+
+
+			<footer id="main-footer">
+				
+
+			
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<div class = "first-span-footer">
+<!--    <div class="logo-audit" style="float: left;margin-right: 45px;">-->
+<!--        <img src="/wp-content/uploads/2018/12/logo-auditado.png">-->
+<!--    </div>-->
+	<img src = "/wp-content/uploads/2016/02/logo_grup-montaner.png" width="198" height="56">
+	<div class = "first-footer-text">
+		<p>Quality Temporal es una empresa de trabajo temporal que pertenece a Grup Montaner, especialistas en Recursos Humanos desde 1973.</p>
+		<p><br>Agencia de colocación autorizada <strong>79 / 00269/13</strong></p>
+		<p class="covid-free-p"><img src="/wp-content/uploads/2020/08/Logo_Covidfree-resize.png" class="logo-covid-free"><span class="covid-footer">Grup Montaner consigue la acreditación área segura COVID-19</span></p>
+	</div>
+</div>
+<div class = "second-span-footer">
+	<ul class="et-social-icons">
+		<!--<li class = "contact-number">
+			<a href="tel:+34932 419 494">932 419 494</a>
+		</li>-->
+		<li class = "contact-number">
+			<a href="tel:+34932419494">932 419 494</a>
+		</li>
+				<!--	<li class = "et-social-icon"><a href = "https://www.instagram.com/qualitytemporal/"><i class="fab fa-instagram"></i></a></li> -->
+								<li class="et-social-icon et-social-linkedin">
+			<a href="https://es.linkedin.com/company/temporal-quality-ett" class="icon" target="_blank">
+				<span>LinkedIn</span>
+			</a>
+		</li>
+	</ul>
+	<p id="footer-info">© 2022 Todos los derechos reservados.</p>
+	<p id="footer-info">Agencia de colocación autorizada <strong>79 / 00269/13</strong></p>
+	<p id="footer-info">Diseñado para <a href="https://www.grupmontaner.com/" title="Grup montaner" target="_blank">Grup Montaner</a></p>
+	<p id="footer-info" style="padding-top:20px;">Quality Temporal, empresa asociada a:</p>
+	<p id="footer-info"><a href="https://asempleo.com/asempleo/empresas-asociadas/" target="_blank"><img src="https://www.qualitytemporal.com/wp-content/uploads/2022/03/logotipo-blanco_r1_c1-1.png"></a></p>
+</div>					</div>	<!-- .container -->
+				</div>
+				
+<div class="container">
+	<div id="footer-widgets" class="clearfix">
+		<div class="footer-widget"><div id="nav_menu-3" class="fwidget et_pb_widget widget_nav_menu"><div class="menu-mapa-sitio-container"><ul id="menu-mapa-sitio" class="menu"><li id="menu-item-3236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3236"><a href="https://qualitytemporal.com/nuestros-servicios/">Nuestros Servicios</a></li>
+<li id="menu-item-2878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2878"><a href="https://qualitytemporal.com/trabaja-con-nosotros/">Encuentra tu oportunidad</a></li>
+<li id="menu-item-4794" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4794"><a href="https://qualitytemporal.com/digitalizacion/">Digitalización</a></li>
+<li id="menu-item-3239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3239"><a href="https://qualitytemporal.com/grup-montaner/">Grup Montaner</a></li>
+<li id="menu-item-5202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5202"><a href="https://qualitytemporal.com/blog/">Blog</a></li>
+<li id="menu-item-3189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3189"><a href="https://qualitytemporal.com/contactar/">Contactar</a></li>
+<li id="menu-item-1366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1366"><a href="https://qualitytemporal.com/aviso-legal/">Aviso legal</a></li>
+<li id="menu-item-1617" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1617"><a href="/aviso-legal/#politica-cookies">Política de cookies</a></li>
+<li id="menu-item-1616" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1616"><a href="/aviso-legal/#politica-privacidad">Política de privacidad</a></li>
+</ul></div></div></div>	</div>
+</div>
+
+
+		
+	</div> <!-- #page-container -->
+
+	<div id="pum-5922" class="pum pum-overlay pum-theme-4484 pum-theme-content-only popmake-overlay pum-click-to-close auto_open click_open" data-popmake="{&quot;id&quot;:5922,&quot;slug&quot;:&quot;reforma-laboral-2&quot;,&quot;theme_id&quot;:4484,&quot;cookies&quot;:[{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-5922&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:null,&quot;path&quot;:true,&quot;time&quot;:&quot;1 hour&quot;}}],&quot;triggers&quot;:[{&quot;type&quot;:&quot;auto_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:[&quot;pum-5922&quot;],&quot;delay&quot;:&quot;1000&quot;}},{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;custom&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;600px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:&quot;1&quot;,&quot;location&quot;:&quot;right bottom&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;X&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-modal="false"
+								   >
+
+	<div id="popmake-5922" class="pum-container popmake theme-4484 size-custom pum-position-fixed">
+
+				
+
+				
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<div class="et_pb_section et_pb_section_0 et_section_regular" >
+				
+				
+				
+				
+				
+				
+				<div class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_3_5 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				
+				
+				<div class="et_pb_text_inner"><h2 style="text-align: center;"><span style="color: #ffffff;">¿Necesitas ayuda con la Reforma Laboral?</span></h2>
+<p style="text-align: center;"><span style="color: #ffffff;">Te ayudamos a adaptar tu empresa con nuestros servicios</span></p></div>
+			</div><div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
+				<a class="et_pb_button et_pb_button_0 et_pb_bg_layout_dark" href="https://contenidosmontaner.com/reforma-laboral" target="_blank">TE ASESORAMOS AQUÍ</a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_2_5 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0">
+				
+				
+				
+				
+				<span class="et_pb_image_wrap "><img src="http://qualitytemporal.com/wp-content/uploads/2022/06/trabajador-1.jpg" alt="" title="" class="wp-image-5931" /></span>
+			</div>
+			</div>
+				
+				
+				
+				
+			</div>
+				
+				
+			</div>
+		</div>
+
+
+				
+
+							<button type="button" class="pum-close popmake-close" aria-label="Cerrar">
+			X			</button>
+		
+	</div>
+
+</div>
+<script>
+	$('.variable-width').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true
+});
+</script><script type='text/javascript' src='https://qualitytemporal.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='jquery-js-after'>
+jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
+</script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-content/plugins/metronet-profile-picture/js/mpp-frontend.js?ver=2.6.0' id='mpp_gutenberg_tabs-js'></script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.7.4' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/qualitytemporal.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.7.4' id='contact-form-7-js'></script>
+<script type='text/javascript' id='wpcf7-redirect-script-js-extra'>
+/* <![CDATA[ */
+var wpcf7r = {"ajax_url":"https:\/\/qualitytemporal.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-content/plugins/wpcf7-redirect/build/js/wpcf7r-fe.js?ver=1.1' id='wpcf7-redirect-script-js'></script>
+<script type='text/javascript' id='divi-custom-script-js-extra'>
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https:\/\/qualitytemporal.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/qualitytemporal.com\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/qualitytemporal.com\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"2c680485af","subscription_failed":"Por favor, revise los campos a continuaci\u00f3n para asegurarse de que la informaci\u00f3n introducida es correcta.","et_ab_log_nonce":"af0f3866c7","fill_message":"Por favor, rellene los siguientes campos:","contact_error_message":"Por favor, arregle los siguientes errores:","invalid":"De correo electr\u00f3nico no v\u00e1lida","captcha":"Captcha","prev":"Anterior","previous":"Anterior","next":"Siguiente","wrong_captcha":"Ha introducido un n\u00famero equivocado de captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"3974","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":"","tinymce_uri":"https:\/\/qualitytemporal.com\/wp-content\/themes\/Divi\/includes\/builder\/frontend-builder\/assets\/vendors","waypoints_options":{"context":[".pum-overlay"]}};
+var et_pb_box_shadow_elements = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-content/themes/Divi/js/scripts.min.js?ver=4.17.6' id='divi-custom-script-js'></script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.17.6' id='fitvids-js'></script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-content/plugins/super-socializer/js/front/combined.js?ver=7.13.47' id='the_champ_combined_script-js'></script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+<script type='text/javascript' id='popup-maker-site-js-extra'>
+/* <![CDATA[ */
+var pum_vars = {"version":"1.18.0","pm_dir_url":"https:\/\/qualitytemporal.com\/wp-content\/plugins\/popup-maker\/","ajaxurl":"https:\/\/qualitytemporal.com\/wp-admin\/admin-ajax.php","restapi":"https:\/\/qualitytemporal.com\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"4477","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","analytics_route":"analytics","analytics_api":"https:\/\/qualitytemporal.com\/wp-json\/pum\/v1"};
+var pum_sub_vars = {"ajaxurl":"https:\/\/qualitytemporal.com\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-5922":{"triggers":[{"type":"auto_open","settings":{"cookie_name":["pum-5922"],"delay":"1000"}}],"cookies":[{"event":"on_popup_close","settings":{"name":"pum-5922","key":"","session":null,"path":true,"time":"1 hour"}}],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"4484","size":"custom","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"600px","custom_height_auto":true,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"right bottom","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":true,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":true,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"content-only","id":5922,"slug":"reforma-laboral-2"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-content/plugins/popup-maker/assets/js/site.min.js?defer&#038;ver=1.18.0' id='popup-maker-site-js'></script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-content/themes/Divi/core/admin/js/common.js?ver=4.17.6' id='et-core-common-js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LfEMIEUAAAAADCUnXtIz2KGbfam_qfEUf3fgDzy&#038;ver=3.0' id='google-recaptcha-js'></script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LfEMIEUAAAAADCUnXtIz2KGbfam_qfEUf3fgDzy","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://qualitytemporal.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.7.4' id='wpcf7-recaptcha-js'></script>
+<style id="et-builder-module-design-deferred-3974-cached-inline-styles">.et_pb_section_0{padding:0!important}.et_pb_row_0{background-color:#009ee3;width:100%;padding:0!important}.et_pb_text_0{font-size:22px;margin-top:30px!important}.et_pb_text_0 h1{font-size:22px;text-align:center}body #page-container .et_pb_section .et_pb_button_0,body .pum-container .et_pb_section .et_pb_button_0{color:#009ee3!important;border-radius:25px;background-color:#ffffff}.et_pb_button_0,.et_pb_button_0:after{transition:all 300ms ease 0ms}.et_pb_image_0{width:100%;max-width:100%!important;text-align:center}.et_pb_image_0 .et_pb_image_wrap,.et_pb_image_0 img{width:100%}.et_pb_column_0{padding-left:40px}@media only screen and (max-width:980px){body #page-container .et_pb_section .et_pb_button_0:after,body .pum-container .et_pb_section .et_pb_button_0:after{display:inline-block;opacity:0}body #page-container .et_pb_section .et_pb_button_0:hover:after,body .pum-container .et_pb_section .et_pb_button_0:hover:after{opacity:1}}@media only screen and (max-width:767px){body #page-container .et_pb_section .et_pb_button_0:after,body .pum-container .et_pb_section .et_pb_button_0:after{display:inline-block;opacity:0}body #page-container .et_pb_section .et_pb_button_0:hover:after,body .pum-container .et_pb_section .et_pb_button_0:hover:after{opacity:1}}</style>
+		<!-- Cookie Notice plugin v2.4.7 by Hu-manity.co https://hu-manity.co/ -->
+		<div id="cookie-notice" role="dialog" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: #000000ff"><div class="cookie-notice-container" style="color: #fff"><span id="cn-notice-text" class="cn-text-container">Al utilizar TEMPORAL Quality ETT, S.L. aceptas el uso que hacemos de las cookies. Estas nos permiten ofrecer una mejor experiencia de navegación. Puede obtener más información, o bien conocer cómo cambiar la configuración, en nuestra <a href="/aviso-legal/#politica-cookies">Política de cookies</a>.</span><span id="cn-notice-buttons" class="cn-buttons-container"><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button cn-button-custom button" aria-label="Estoy de acuerdo">Estoy de acuerdo</a></span><span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
+			
+		</div>
+		<!-- / Cookie Notice plugin --><script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn2.hubspot.net/hubfs/3842749/Event%20Microsite/Event%20Slider/slick.css?t=1529018433882">
+<script src="https://cdn2.hubspot.net/hubfs/3842749/Event%20Microsite/Event%20Slider/slick.min.js?t=1529018433882" type="text/javascript" charset="utf-8"></script>
+<script>
+$(document).ready(function(){
+	$('.posts-slider').slick({
+   slidesToShow: 3,
+   slidesToScroll: 1,
+   speed: 500,
+   dots: false,
+   focusOnSelect: false,
+   infinite: true,
+   arrows: true,
+   prevArrow: '<div class="slick-arrows slick-prev"><img src="/wp-content/uploads/2018/08/left-arrow-angle.png"></div>',
+   nextArrow: '<div class="slick-arrows slick-next"><img src="/wp-content/uploads/2018/08/right-arrow-angle.png"></div>',
+   responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+		variableWidth: false,  
+	  }
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+		variableWidth: false,  
+      }
+    }
+	]
+	});
+});
+</script>
+<script type='text/javascript'>
+(function (d, t) {
+  var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+  bh.type = 'text/javascript';
+  bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=dcjz16gp2bju8wdwgnypqg';
+  s.parentNode.insertBefore(bh, s);
+  })(document, 'script');
+</script>
+
+
+</body>
+</html>
